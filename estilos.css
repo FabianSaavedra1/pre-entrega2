@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  background-image: url(gatos/fondo.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.seccion {
+  margin-bottom: 30px;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gato {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gato img
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+ }
+
+.caja1
+ {
+    width: 470px; 
+    height: 40px;
+    background-color: beige; 
+    border-radius: 10px;     
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+
+ h1
+ {
+    text-align: center;
+ }
+
+ .resaltar
+ {
+  background-color: beige;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
